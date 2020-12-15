@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "HUFSAIM"
+title                    : ""
 title_separator          : "-"
-subtitle                 :  "MRI is my life" # site tagline that appears below site title in masthead
+subtitle                 :  "" # site tagline that appears below site title in masthead
 name                     : "hufsaim"
 description              : # "An amazing website."
 url                      : "https://hufsaim.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
