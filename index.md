@@ -28,8 +28,8 @@ author_profile: true
 
 ### Recent Posts
 
-{% for post in site.research %}
+{% for post in site.research limit:3 %}
   {% unless post.hidden %}
-    {% include archive-single.html %}
+    {% include archive-single.html type="grid" %}
   {% endunless %}
 {% endfor %}
