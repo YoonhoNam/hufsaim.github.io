@@ -1,13 +1,7 @@
 ---
-layout: collection
 title: "News"
+layout: collection
 permalink: /news/
 collection: news
-author_profile: false
+entries_layout: grid
 ---
-
-{% for post in site.news %}
-  {% unless post.hidden %}
-    {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
