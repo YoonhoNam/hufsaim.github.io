@@ -28,7 +28,7 @@ author_profile: true
 
 <br>
 
-### Recent Posts
+### Recent Research Posts
 
 {% for post in site.research limit:4 %}
   {% unless post.hidden %}
