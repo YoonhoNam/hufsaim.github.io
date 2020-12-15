@@ -27,10 +27,9 @@ author_profile: true
 <br>
 
 ### Recent Posts
-{% i = 0 %}
+
 {% for post in site.research %}
-  {% unless post.hidden and i != 3 %}
+  {% unless post.hidden %}
     {% include archive-single.html %}
-    {% i = i+1 %}
   {% endunless %}
 {% endfor %}
