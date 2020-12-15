@@ -1,7 +1,8 @@
 ---
-layout: archive
+layout: collection
 title: "News"
 permalink: /news/
+collection: news
 author_profile: false
 ---
 
