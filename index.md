@@ -7,6 +7,18 @@ author_profile: true
 
 [People](/people/)
 
+
+### Recent Research Posts
+
+{% for post in site.news limit:4 %}
+  {% unless post.hidden %}
+    {% include archive-single.html type="grid" %}
+  {% endunless %}
+{% endfor %}
+
+<br>
+
+
 [Research](https://sites.google.com/view/yhnam/research)
 - ML Applications for Medical Imaging
 - Quantitative Medical Imaging
@@ -28,12 +40,3 @@ author_profile: true
 
 <br>
 
-### Recent Research Posts
-
-{% for post in site.research limit:4 %}
-  {% unless post.hidden %}
-    {% include archive-single.html type="grid" %}
-  {% endunless %}
-{% endfor %}
-
-<br>
