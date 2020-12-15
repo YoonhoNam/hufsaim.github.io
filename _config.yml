@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "HUFSAIM"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "We are **amazing** people."
+  location         : "용인시"
   email            :
   links:
     - label: "Email"
