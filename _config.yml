@@ -249,6 +249,9 @@ collections:
   publication:
     output: true
     permalink: /:collection/:path/
+  news:
+    output: true
+    permalink: /:collection/:path/
     
 category_archive:
   type: liquid
