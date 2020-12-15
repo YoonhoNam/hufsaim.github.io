@@ -1,4 +1,3 @@
-
 ---
  title: Item 1
  header:
