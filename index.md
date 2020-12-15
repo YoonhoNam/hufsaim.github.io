@@ -31,7 +31,7 @@ author_profile: true
 
 ### Recent Posts
 
-{% for post in site.research limit:5 %}
+{% for post in site.research limit:4 %}
   {% unless post.hidden %}
     {% include archive-single.html type="grid" %}
   {% endunless %}
