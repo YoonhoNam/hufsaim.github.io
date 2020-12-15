@@ -23,3 +23,10 @@ author_profile: true
     - T10312101 BME Neuroscience (BME신경과학)
 - Graduate
     - G67061101 Special topics in Biomedical AI
+
+
+{% for post in site.research %}
+  {% unless post.hidden %}
+    {% include archive-single.html %}
+  {% endunless %}
+{% endfor %}
