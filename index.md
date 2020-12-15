@@ -24,9 +24,13 @@ author_profile: true
 - Graduate
     - G67061101 Special topics in Biomedical AI
 
+<br>
 
+### Recent Posts
+{% i = 0 %}
 {% for post in site.research %}
-  {% unless post.hidden %}
+  {% unless post.hidden and i != 3 %}
     {% include archive-single.html %}
+    {% i = i+1 %}
   {% endunless %}
 {% endfor %}
