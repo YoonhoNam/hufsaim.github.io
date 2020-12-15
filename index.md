@@ -30,6 +30,6 @@ author_profile: true
 
 {% for post in site.research limit:3 %}
   {% unless post.hidden %}
-    {% include archive-single.html type="archive" %}
+    {% include archive-single.html type="grid" %}
   {% endunless %}
 {% endfor %}
