@@ -15,3 +15,5 @@ main:
     url: /people/
   - title: "Calendar"
     url: /calendar/
+  - title: "News"
+    url: /news/
