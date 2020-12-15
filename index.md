@@ -3,17 +3,7 @@ layout: single
 author_profile: true
 ---
 
-### Recent Posts
 
-{% for post in site.research limit:3 %}
-  {% unless post.hidden %}
-    {% include archive-single.html type="grid" %}
-  {% endunless %}
-{% endfor %}
-
-<br>
-
------
 
 [People](/people/)
 
@@ -35,3 +25,16 @@ author_profile: true
     - T10312101 BME Neuroscience (BME신경과학)
 - Graduate
     - G67061101 Special topics in Biomedical AI
+
+<br>
+<br>
+
+### Recent Posts
+
+{% for post in site.research limit:3 %}
+  {% unless post.hidden %}
+    {% include archive-single.html type="grid" %}
+  {% endunless %}
+{% endfor %}
+
+<br>
