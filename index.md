@@ -27,7 +27,6 @@ author_profile: true
     - G67061101 Special topics in Biomedical AI
 
 <br>
-<br>
 
 ### Recent Posts
 
